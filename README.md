@@ -1,5 +1,11 @@
 # Deep_Learning
-Version 1.0 of the project has 6.5 million parametre and a accuracy of 90.28 % 
-Version 2.0 -> Trying to bring down paramaeters down to 5 million with same accuracy 
-
-Latex project report and all other changes will be communicated via this channel since it will easy to do a version control and submit the git repo too.
+Neural nets are one of the best ways to classify images with high accuracy.On
+increasing the number of layers accuracy of the model increase up till a point and
+then starts diminishing due to feature reuse.Also increasing the number of layers
+leads to increasing the number of parameters which makes the model slower to
+train. To reduce the aforementioned problems we inside widen the neural network
+which also increases the accuracy and also applying data transformation and data
+augmentation techniques to contribute to the accuracy. We train our model using
+the CIFAR10 data set which has 50000 images for training.We also use hyper pa-
+rameter optimization to help increase the accuracy while keeping the total number
+of parameters below the specified limit of 5M(4,977,226).
